@@ -265,12 +265,68 @@ section {
     text-align: center;
     padding-top: 2rem;
     overflow: hidden;
-    
-
 }
 
+.products .box-container .box .image img {
+    height: 25rem;
+}
 
+.products .box-container .box:hover .image img {
+    transform: scale(1.1);
+}
 
+.products .box-container .box .image .icons {
+    position: absolute;
+    bottom: -7rem; left: 0; right: 0;
+    display: flex;
+}
+
+.products .box-container .box:hover .image .icons {
+    bottom: 0;
+}
+
+.products .box-container .box .image .icons a {
+    height: 4rem;
+    line-height: 3.5rem;
+    font-size: 1.5rem;
+    width: 50%;
+    background: var(--pink);
+    color: var(--white);
+}
+
+.products .box-container .box .image .icons .cart-btn {
+    border-left: .1rem solid var(--white_bone);
+    border-right: .1rem solid var(--white_bone);
+    width: 100%;
+}
+
+.products .box-container .box .image .icons a:hover {
+    background: var(--white-grey);
+}
+
+.products .box-container .box .content {
+    padding: 1rem;
+    text-align: center;
+}
+
+.products .box-container .box .content h3 {
+    font-size: 1.8rem;
+    color: var(--grey);
+}
+
+.products .box-container .box .content .price {
+    font-size: 1.3rem;
+    color: var(--pink);
+    font-weight: bold;
+    padding-top: 1rem;
+}
+
+.products .box-container .box .content .price span {
+    font-size: 1.1rem;
+    color: var(--white-grey);
+    font-weight: lighter;
+    text-decoration: line-through;
+}
 
 
 
