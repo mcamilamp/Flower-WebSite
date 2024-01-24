@@ -400,7 +400,7 @@ section {
 .review .box-container .box .user {
     display: flex;
     align-items: center;
-    padding-top: 2rem;
+    padding-top: 4rem;
 }
 
 .review .box-container .box .user img {
@@ -447,6 +447,8 @@ section {
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
     }
+
+
 }
 
 @media (max-width: 768px) {
@@ -490,6 +492,14 @@ section {
     font-size: 1.3rem;
 }
 
+.review .box-container {
+    display: block;
+}
+
+.review .box-container .box {
+    margin-top: 1.5rem;
+}
+
 }
 
 @media (max-width: 450px) {
@@ -512,6 +522,17 @@ section {
 
     .products .box{
         margin-top: 1.5rem;
+        width: 100%;
     }
+
+    .review .box-container {
+        display: block;
+        margin-top: 1.5rem;
+    }
+
+    .review .box-container .box {
+        margin-top: 1.5rem;
+    }
+
 
 }
