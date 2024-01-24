@@ -254,7 +254,6 @@ section {
 }
 
 .products .box-container .box {
-    flex: 1 1 30rem;
     box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
     border-radius: .5rem;
     border: .1rem solid rgba(0,0,0,.1);
@@ -341,20 +340,27 @@ section {
     text-decoration: line-through;
 }
 
-.review .box-container {
+/* .review .box-container {
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
-}
+    justify-content: center;
+} */
 
-.review .box-container .box {
-    flex: 1 1 30 rem;
+ /* .review .box-container{
+    /* flex: 1 1 30 rem;
     box-shadow: 0 .5rem rgba(0,0,0,.1);
     border-radius: .5rem;
     padding: 3rem 2rem;
     position: relative;
-    border: .1rem solid rgba(0,0,0,.1);
-}
+    border: .1rem solid rgba(0,0,0,.1); 
+    grid-column: span 2; 
+  grid-row: span 2;
+  width: 200px;
+}  */
+
+
+
 
 .review .box-container .box .fa-quote-rigth {
     position: absolute;
