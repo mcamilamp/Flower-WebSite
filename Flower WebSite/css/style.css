@@ -264,7 +264,7 @@ section {
 .products .box-container .box .discount {
     position: absolute;
     top: 1rem; left: 1rem;
-    padding: .7rem 1rem;
+    padding: .5rem 1rem;
     font-size: 2rem;
     color: var(--pink);
     background: rgba(255, 51, 153, .05);
@@ -376,14 +376,6 @@ section {
         border: .1rem solid rgba(0,0,0,.1);
 }
 
-/* .review .box-container .box .fa-quote-right {
-    position: absolute;
-    bottom: 3rem;
-    right: 3rem;
-    font-size: 6rem;
-    color: var(--light_grey);
-} */
-
 
 .review .box-container .box .stars {
     color: var(--pink);
@@ -422,13 +414,6 @@ section {
     color: var(--light_grey);
 }
 
-/* .contact .row {
-    display: flex;
-    flex-wrap: wrap-reverse;
-    gap: 1.5rem;
-    align-items: center;
-} */
-
 .contact .row {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -442,10 +427,6 @@ section {
     background: var(--white);
     border-radius: .5rem;
 }
-
-/* .contact .row image {
-    flex: 1 1 40rem;
-} */
 
 .contact .row .image img {
     width: 100%;
@@ -471,9 +452,46 @@ section {
     resize: none;
 }
 
+.footer {
+    background-color: var(--white_bone);
+}
 
+.footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
 
+.footer .box-container .box h3 {
+    color: var(--grey);
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
 
+.footer .box-container .box a {
+    display: block;
+    color: var(--white-grey);
+    font-size: 1rem;
+    padding: .5rem 0;
+}
+
+.footer .box-container .box a:hover {
+    color: var(--pink);
+    text-decoration: underline;
+}
+
+.footer .credit {
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+    padding-top: 2.5rem;
+    font-size: 1rem;
+    color: var(--grey);
+    border-top: .2rem solid rgba(0,0,0,.1); 
+}
+
+.footer .credit span {
+    color: var(--pink);
+}
 
 
 
@@ -591,5 +609,13 @@ section {
 
     .contact .row .image img {
         margin-top: 2rem;
+    }
+
+    .footer .box-container {
+        display: block;
+    }
+
+    .footer .box-container .box h3 {
+        padding-top: 2rem;
     }
 }
